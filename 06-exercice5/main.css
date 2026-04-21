@@ -1,0 +1,16 @@
+h1 {
+    color: red;
+}
+a {
+    color: yellowgreen;
+}
+#contenu {
+    background-color: lightgray;
+}
+body > div:nth-child(3) {
+    text-align: right;
+}
+
+#contenu + div p {
+        font-size: 2rem;
+    }
