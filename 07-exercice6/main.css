@@ -28,3 +28,6 @@ article:nth-child(3) h3{
     text-decoration: underline;
     text-align: right;
 }
+img[alt]{
+    width: 400px;
+}
