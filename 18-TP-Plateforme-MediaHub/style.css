@@ -1,0 +1,42 @@
+body{
+    background: #f8f8f8;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+section{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #bbbbbb;
+    
+    flex: 1 300px;
+}
+
+section:nth-child(1){
+    flex: 2 500px;
+}
+
+video, iframe{
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+figcaption{
+    text-align: center;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <img src="https://fastly.picsum.photos/id/441/800/200.jpg?hmac=ltU4hDcUlSHHCymhw_ss4B0uLWcl4hx2gx1OeyRtx9o" alt="image d'illustration" width="600">
+        <h1>Bienvenu sur mon site !</h1>
+        <nav aria-label="menu principal">
+            <p><a href="accueil.html">Accueil</a></p>
+            <p><a href="blog.html">Blog</a></p>
+            <p><a href="galerie.html">Galerie</a></p>
+            <p><a href="contact.html">Contact</a></p>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact</legend>
+                <div>
+                    <label for="nom">Nom:<span>*</span></label>
+                    <input type="text" id="nom" name="nom" placeholder="Ex: Robert" required>
+                </div>
+                <div>
+                    <label for="email">Email:<span>*</span></label>
+                    <input type="email" id="email" name="email" placeholder="Ex: monMail@FAI.com" required>
+                </div>
+                <div>
+                    <label for="commentaire">Laissez un commentaire:</label>
+                    <textarea id="commentaire" name="commentaire" cols="60" rows="10" placeholder="Je dépose mon avis :)"></textarea>
+                </div>
+                <div>
+                    <input type="checkbox" id="copie" name="copie" checked>
+                    <label for="copie">Envoyer une copie par E-mail !</label>
+                </div>
+                <div>
+                    <button type="submit">Envoyer</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <nav aria-label="menu secondaire">
+            <p><a href="#">Menu 1</a></p>
+            <p><a href="#">Menu 2</a></p>
+            <p><a href="#">Menu 3</a></p>
+            <p><a href="#">Menu 4</a></p>
+        </nav>
+    </footer>
+</body>
+</html>

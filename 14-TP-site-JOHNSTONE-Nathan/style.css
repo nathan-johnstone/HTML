@@ -1,0 +1,83 @@
+body{
+    background: #d9e4e8;
+}
+
+/* Header */
+
+header{
+    text-align:center;
+    padding-bottom:10px;
+}
+header h1{
+    color: #ef233c;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+nav p{
+    margin: 0;
+}
+
+/* Navigation */
+
+nav a, nav a:visited:hover{
+    color: #ef233c;
+}
+nav a:hover, nav a:visited{
+    color: gray;
+}
+
+/* Pages */
+
+.title{
+    text-align: center;
+}
+
+.blog article{
+    padding: 0 10px;
+}
+
+/* Articles */
+
+article{
+    border: 1px solid #000;
+}
+.image{
+    text-align: center;
+}
+article img{
+    border: 1px solid gray;
+}
+article h2, article h3{
+    text-decoration: underline dashed;
+    color: #2b2d42;
+}
+
+/* Commentaires */
+
+#commentaires{
+    border-top: 1px solid gray;
+    padding: 10px;
+}
+
+/* Formulaire */
+
+label span{
+    color: #ef233c;
+}
+
+textarea{
+    display: block;
+}
+
+input[type="checkbox"]:checked{
+    accent-color: #a94dc1;
+}
+
+/* Footer */
+
+footer{
+    margin: 20px 0;
+}
+
+footer nav{
+    text-align: right;
+}

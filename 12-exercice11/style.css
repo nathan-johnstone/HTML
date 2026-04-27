@@ -1,0 +1,42 @@
+table{
+    margin: 20px 0 0 20px;
+}
+
+/* Tableau 1 */
+
+table#tab1 {
+    border: 5px double #882fe1;
+    border-collapse: collapse;
+}
+
+table#tab1  caption{
+    color: #882fe1;
+    font-weight: bold;
+}
+
+table#tab1  tr:first-of-type{
+    background: lightblue;
+}
+
+table#tab1 td, table#tab1 th{
+    border: 2px solid #000;
+    text-align: center;
+}
+
+/* Tableau 2 */
+
+table#tab2{
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+table#tab2 th{
+    background: lightblue;
+}
+
+table#tab2 td, table#tab2 th{
+    border: 1px solid #000;
+    text-align: center;
+    padding: 2px;
+    min-width: 100px;
+}
