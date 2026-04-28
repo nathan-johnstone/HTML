@@ -1,0 +1,54 @@
+
+img{
+    transform: scale(0.5);
+    transition: transform 1s ease;
+}
+
+img:hover{
+    transform: scale(0.6) rotate(720deg);
+}
+
+@keyframes divAnimate{
+    from{
+        background: red;
+    }
+
+    20%{
+        background: blue;
+        border-radius: 100%;
+    }
+
+    40%{
+        background: yellow;
+        height:600px;
+    }
+
+    50%{
+        background: green;
+        margin: 50px;
+    }
+
+    60%{
+        background: purple;
+        width:300px;
+    }
+
+    80%{
+        background: pink;
+        border: 20px solid red;
+    }
+
+    to{
+        background: lightgreen;
+    }
+}
+
+#div{
+    width: 400px;
+    height: 200px;
+    background: red;
+}
+
+#div:hover{
+    animation: divAnimate 3s ease infinite;
+}
