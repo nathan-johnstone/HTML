@@ -144,7 +144,7 @@ footer {
     }
 }
 
-@media (height: 667px) and (orientation: landscape){
+@media (width: 667px) and (orientation: landscape){
     header{
         background: linear-gradient(to right top, #4758d1, #ce5cb8, #fcc972);
     }
